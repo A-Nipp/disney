@@ -11,6 +11,7 @@
 		164FC6D729259B5E006FE9D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164FC6D629259B5E006FE9D3 /* ContentView.swift */; };
 		164FC6D929259B5F006FE9D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164FC6D829259B5F006FE9D3 /* Assets.xcassets */; };
 		164FC6DC29259B5F006FE9D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 164FC6DB29259B5F006FE9D3 /* Preview Assets.xcassets */; };
+		164FC6E629259BC1006FE9D3 /* DisneyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164FC6E529259BC1006FE9D3 /* DisneyService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		164FC6D629259B5E006FE9D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		164FC6D829259B5F006FE9D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		164FC6DB29259B5F006FE9D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		164FC6E529259BC1006FE9D3 /* DisneyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisneyService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,9 @@
 			children = (
 				164FC6D429259B5E006FE9D3 /* disneyApp.swift */,
 				164FC6D629259B5E006FE9D3 /* ContentView.swift */,
+				164FC6E429259B92006FE9D3 /* ViewModel */,
+				164FC6E329259B84006FE9D3 /* Views */,
+				164FC6E229259B6D006FE9D3 /* Model */,
 				164FC6D829259B5F006FE9D3 /* Assets.xcassets */,
 				164FC6DA29259B5F006FE9D3 /* Preview Content */,
 			);
@@ -65,6 +70,28 @@
 				164FC6DB29259B5F006FE9D3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		164FC6E229259B6D006FE9D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				164FC6E529259BC1006FE9D3 /* DisneyService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		164FC6E329259B84006FE9D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		164FC6E429259B92006FE9D3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +166,7 @@
 			files = (
 				164FC6D729259B5E006FE9D3 /* ContentView.swift in Sources */,
 				164FC6D529259B5E006FE9D3 /* disneyApp.swift in Sources */,
+				164FC6E629259BC1006FE9D3 /* DisneyService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
